@@ -1,23 +1,7 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
-    descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
-      },
-    ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Conceptos fundamentales de diversidad e inclusión',
   },
   menuPrincipal: {
     menu: [
@@ -170,109 +154,208 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Ainscow, M., & Miles, S. (2008). Developing Inclusive Schools: A Collaborative Approach. Routledge.',
+    },
+    {
+      referencia:
+        'Bornstein, K. (1994). Gender Outlaw: On Men, Women and the Rest of Us. Vintage.',
+    },
+    {
+      referencia:
+        'Butler, J. (1990). Gender Trouble: Feminism and the Subversion of Identity. Routledge.',
+    },
+    {
+      referencia:
+        'Cantábrica, C. (2023). Descubre las Diferencias entre Igualdad e Inclusión. Efecto Ping Pong.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://educainclusion.com/cual-es-la-diferencia-entre-igualdad-e-inclusion',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Constitución Política de Colombia. (1991). Constitución Política de Colombia de 1991.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Congreso de Colombia. (1993). Ley 70 de 1993: Por la cual se desarrolla el artículo transitorio 55 de la Constitución Política.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33925',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (2010). Ley 1381 de 2010: Regula el reconocimiento, fomento, protección, uso, preservación y fortalecimiento de las lenguas de los grupos étnicos de Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=35628',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Congreso de Colombia. (2012). Ley 1516 de 2012: Por la cual se aprueba la Convención sobre la Protección y Promoción de la Diversidad de las Expresiones Culturales.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44383',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Congreso de Colombia. (2011). Ley 1448 de 2011: Por la cual se dictan medidas de atención, asistencia y reparación integral a las víctimas del conflicto armado interno.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43285',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2001). Ley 725 de 2001: Establece el Día Nacional de la Afrocolombianidad.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4482',
+    },
+    {
+      referencia:
+        'El Sector de la Inclusión Social. (2018). Prosperidad Social.',
+      link:
+        'https://prosperidadsocial.gov.co/la-entidad/el-sector-de-la-inclusion-social/?form=MG0AV3',
+    },
+    {
+      referencia:
+        'Fundación ConTrabajo. (2022). "¿Qué es inclusión laboral?" Fundación ConTrabajo',
+    },
+    {
+      referencia:
+        'Gallegos García, Y., & García Ramírez, M. T. (2022). Inclusión digital educativa: una cartografía conceptual. Apertura, 14(1), 1-32.',
+      link: 'https://doi.org/10.32870/ap.v14n1.2118',
+    },
+    {
+      referencia: 'Giddens, A. (2013). Sociology (7th ed.). Polity Press.',
+    },
+    {
+      referencia:
+        'Gómez, J. (2015). La importancia de la legislación en la inclusión social. Editorial Universitaria.',
+    },
+    {
+      referencia:
+        'Kiss, T. (2024). Diversidad cultural - Qué es, tipos, importancia y ejemplos.',
+      link: 'https://concepto.de/diversidad-cultural/',
+    },
+    {
+      referencia:
+        'MATA BENITO, P., MELERO SÁNCHEZ, H., & AGUADO ODINA, M. T. (2021). Diversidad e igualdad en educación. UNED.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/189579?page=29',
+    },
+    {
+      referencia:
+        'Millán Aguilar, P., Arredondo Trapero, F. G., & Vázquez Parra, J. C. (2018). "Inclusión laboral, paz y sostenibilidad." Methaodos. Revista de Ciencias Sociales, 6(2), 174-189.',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC). (2023). Cierre del tercer trimestre de 2023: 47.4 millones de accesos a Internet en Colombia.',
+      link: 'https://www.mintic.gov.co',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2013). Ley 1618 de 2013.',
+      link: 'www.minsalud.gov.co',
+    },
+    {
+      referencia:
+        'Monco, B. (S/f). Antropología del género. Editorial Síntesis.',
+    },
+    {
+      referencia:
+        'ONU. (2006). Convención sobre los Derechos de las Personas con Discapacidad. Organización de las Naciones Unidas.',
+    },
+    {
+      referencia:
+        'Organización Internacional del Trabajo (OIT). (s.f.). "Inclusión laboral." OIT.',
+    },
+    {
+      referencia: 'Rae.es. (S/f). Diversidad.',
+      link: 'https://dle.rae.es/diversidad?m=form',
+    },
+    {
+      referencia:
+        'R.S.S (2023). Qué es la inclusión. Responsabilidad Social Empresarial y Sustentabilidad.',
+      link:
+        'https://responsabilidadsocial.net/inclusion-que-es-definicion-tipos-caracteristicas-y-ejemplos/',
+    },
+    {
+      referencia:
+        'Rawls, J. (1999). A Theory of Justice: Revised Edition. Harvard University Press.',
+      link: 'https://doi.org/10.2307/j.ctvkjb25m',
+    },
+    {
+      referencia:
+        'Sen, A. (1999). Desarrollo y Libertad. Oxford University Press.',
+    },
+    {
+      referencia:
+        'SNIES. (2023). Informe de inscripciones en programas en línea 2023.',
+      link: 'https://www.snies.gov.co',
+    },
+    {
+      referencia:
+        "Stiglitz, J. E. (2012). The Price of Inequality: How Today's Divided Society Endangers Our Future. W.W. Norton & Company.",
+      link: 'https://doi.org/10.7916/d8-96ed-6058',
+    },
+    {
+      referencia:
+        'Thomas, D. A. (2018). Diversity as Strategy: How to Make Diversity Work for You. Harvard Business Review Press.',
+    },
+    {
+      referencia:
+        'Tomlinson, C. A. (2014). The Differentiated Classroom: Responding to the Needs of All Learners. ASCD.',
+    },
+    {
+      referencia:
+        'Tuckman, B. W. (1965). Developmental Sequence in Small Groups. Psychological Bulletin, 63(6), 384-399.',
+    },
+    {
+      referencia:
+        'UNESCO. (2009). Informe de la UNESCO sobre la Diversidad Cultural',
+    },
+    {
+      referencia:
+        'UNESCO. (2000). Índice de inclusión: desarrollando el aprendizaje y la participación en las escuelas.',
+      link: 'https://unesdoc.unesco.org/ark:/48223/pf0000138159',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Agénero',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'persona que no se identifica con ningún género. Esta identidad puede implicar una sensación de ser sin género o de que el género no es relevante para la identidad personal.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Diversidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'variedad de características y experiencias que hacen única a cada persona, incluyendo aspectos culturales, sociales, étnicos y de género.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Diversidad Cultural',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'conjunto de distintas culturas que coexisten en un mismo espacio y que se reconocen y valoran mutuamente.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Equidad',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'principio que busca corregir las desigualdades proporcionando a cada persona lo necesario para alcanzar las mismas oportunidades.',
     },
     {
-      termino: 'Moda',
+      termino: 'Género Fluido',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'persona cuya identidad de género cambia con el tiempo, pudiendo identificarse en diferentes momentos con distintos géneros.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Inclusión',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'integración plena y equitativa de todas las personas en la sociedad, sin importar sus diferencias, promoviendo un entorno respetuoso y participativo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'No Binarias',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'personas que no se identifican exclusivamente como hombre o mujer, pudiendo combinar aspectos de ambos géneros o situarse entre ellos.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Transgénero',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'persona cuya identidad de género no coincide con el sexo asignado al nacer, y que puede realizar una transición a través de cambios físicos, hormonales y/o legales.',
     },
   ],
   complementario: [

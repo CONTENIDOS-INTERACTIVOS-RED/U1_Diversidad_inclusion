@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Conceptos fundamentales de diversidad e inclusión'
