@@ -11,7 +11,7 @@
   &-5
     background-color: #E9F2FA
   &-6
-    background-color: #E3FBF2
+    background-color: #FEEED4
   &-7
     background-color: #D4DDF0
   &-8
@@ -39,7 +39,11 @@
 
 .container.tarjeta
   overflow-y: hidden
-
+.h-card
+  &-1
+    height: 220px
+    @media screen and (max-width: $bp-max-sm)
+      height: auto
 /*COMPONENTS STYLES*/
 .iniciar-btn-container .icon
   background-color: #8B454E !important
@@ -146,6 +150,11 @@ $custom-card-img-height: 322px
     background-position: bottom
   &-4
     background-color: #DFECF7
+  &-5
+    background-color: #FEEED4
+  &-6
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: top
     /* &-slider-2
       background-image: url("../assets/bg/2.svg") !important
       background-position: top*/
