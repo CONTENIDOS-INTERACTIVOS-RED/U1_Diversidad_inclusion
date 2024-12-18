@@ -1,85 +1,206 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'Normas y legislaciones sobre diversidad e inclusión en diferentes contextos colombianos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
+    p.mb-3 En esta temática, estaremos hablando de las normas y legislaciones que, en nuestro país, rigen la diversidad y la inclusión, pero primero conozcamos la definición de estos términos:
     .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src="@/assets/curso/t3/1.png", alt="")
+      .col-sm-12.col-lg-7
+        LineaTiempoD.color-acento-contenido.large
+          div(numero="1" titulo="Norma") 
+            p Las normas son pautas establecidas que regulan el comportamiento y las interacciones dentro de una sociedad. Estas directrices son vitales para mantener el orden y fomentar un ambiente en el que las personas se sientan seguras y respetadas. En el contexto de la diversidad y la inclusión, las normas juegan un papel fundamental al garantizar que todas las voces sean escuchadas y que se reconozcan las diferencias individuales.
+            p Según Giddens (2013), las normas sociales no solo ayudan a definir lo que es aceptable, sino que también establecen un marco que promueve la igualdad de oportunidades para todos. Esto significa que las normas pueden ser una herramienta poderosa para combatir la discriminación y fomentar un entorno más inclusivo.
+            p La importancia de estas normas se hace aún más evidente cuando se consideran sus implicaciones en la diversidad. Las organizaciones y sociedades que implementan normas inclusivas, no solo benefician a individuos de diferentes orígenes, sino que también mejoran su cohesión y productividad. Como señala Thomas (2018), la inclusión no es solo una cuestión ética, sino también una necesidad empresarial que puede llevar a una mayor innovación y éxito en el mercado. Al establecer normas que valoren la diversidad, se crea un espacio donde todas las personas pueden contribuir y prosperar, lo que en última instancia enriquece a toda la comunidad.
+          div(numero="2" titulo="Legislación") 
+            p Es el conjunto de normas y leyes que regulan el comportamiento de los individuos y las instituciones en una sociedad. En Colombia, la legislación es fundamental para garantizar derechos y deberes a todos los ciudadanos; en el caso de la diversidad, busca promover la inclusión de las personas en diferentes ámbitos de la vida social, como la educación y el trabajo. Estas leyes no solo establecen normas para la accesibilidad en espacios públicos, sino que también fomentan la participación activa de estas personas en la comunidad, contribuyendo a un entorno más diverso e inclusivo (Ministerio de Salud y Protección Social, 2013).
+            p En el contexto de la diversidad, la legislación colombiana y autores como Gómez (2015), destacan que estas leyes son esenciales para construir una sociedad más equitativa, donde cada individuo pueda ejercer plenamente, sus derechos. Según el autor, "la legislación no solo debe existir, sino que debe ser implementada y respetada para lograr un verdadero cambio social" (Gómez, 2015).
 
-    #t_3_2.titulo-segundo
-      h2 3.2 Tablas
+    .bg-full-width.bg-fondo-5(data-aos="flip-up")
+      .px-4.px-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            .p-4
+              .row.align-items-center
+                .col-lg-auto.d-none.d-lg-block
+                  img(src="@/assets/curso/t3/2.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 En conclusión, la norma y la legislación son pilares que no solo regulan las conductas, sino que también reflejan los valores de una sociedad, asegurando que se respeten los derechos y se mantenga el orden. 
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-7
+        p.mb-3 Después de haber incursionado en la norma y legislación, vamos realizar un recorrido por las principales leyes colombianas que rigen la diversidad y la inclusión. En Colombia, diversas normas y legislaciones han sido establecidas para promover la diversidad y la inclusión. 
+        p.mb-0 La Constitución Política de Colombia de 1991, reconoce la diversidad étnica y cultural del país, afirmando que el Estado está obligado a proteger y promover los derechos de todos los grupos étnicos y culturales.
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src="@/assets/curso/t3/3.png", alt="")
 
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+    .bg-5.mb-5(data-aos="flip-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto.d-none.d-lg-block
+            img(src='@/assets/curso/t3/4.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0 Esta disposición es fundamental para garantizar que las comunidades indígenas, afrodescendientes, raizales y otras minorías tengan sus derechos respetados y protegidos. La Constitución establece un marco legal que busca la inclusión y la igualdad de oportunidades para todos los ciudadanos, independientemente de su origen étnico o cultural.
+
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Leyes colombianas sobre diversidad étnica
+    p.mb-3 A continuación, conoceremos sobre 5 leyes fundamentales de nuestra diversidad étnica colombiana; consideramos que comprenderlas, asegura que los docentes cumplan con las leyes vigentes y eviten prácticas discriminatorias. Esto protege de posibles repercusiones legales, tanto a los estudiantes como a los educadores.
+    .bg-7.p-5.mb-5
+      .row.justify-content-center.align-items-center
+        .col-sm-12.col-lg-10
+          ImagenInfografica.color-acento-contenido
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/t3/15.svg', alt='', style="max-width: 887px;").mx-auto
+
+              .bg-white.p-3.br-10(x="20%" y="88%" numero="+")
+                h5 Ley 70 de 1993
+                p.mb-0 Establece medidas para la protección y promoción de los derechos de las comunidades afrodescendientes e indígenas, incluyendo el derecho a la tierra y la consulta previa.
+              .bg-white.p-3.br-10(x="40%" y="10%" numero="+")
+                h5 Ley 1381 del 2010	
+                p.mb-0 Regula el reconocimiento, fomento, protección, uso, preservación y fortalecimiento de las lenguas de los grupos étnicos de Colombia, promoviendo sus derechos lingüísticos y culturales.
+              .bg-white.p-3.br-10(x="57.5%" y="88%" numero="+")
+                h5 Ley 1516 del 2012	
+                p.mb-0 Aprueba la Convención sobre la Protección y Promoción de la Diversidad de las Expresiones Culturales, que busca proteger y promover la diversidad cultural y étnica en el país.
+              .bg-white.p-3.br-10(x="76.3%" y="10%" numero="+")
+                h5  Ley 1448 del 2011	
+                p.mb-0 Dicta medidas de atención, asistencia y reparación integral, a las víctimas del conflicto armado interno, incluyendo a las comunidades étnicas afectadas.
+              .bg-white.p-3.br-10(x="98%" y="88%" numero="+")
+                h5 Ley 725 del 2001	
+                p.mb-0 Establece el Día Nacional de la Afrocolombianidad, celebrado cada 20 de octubre, para reconocer y promover la cultura afrocolombiana.
+    
+
+
+
+
+
+
+
+
+
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src="@/assets/curso/t3/5.png", alt="")
+      .col-sm-12.col-lg-8
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-12
+            .p-4.bg-2
+              .row.align-items-center
+                .col-lg-auto.d-none.d-lg-block
+                  img(src="@/assets/curso/t3/6.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 Estas leyes reflejan el compromiso de Colombia con la protección y promoción de la diversidad étnica y cultural, asegurando que todas las comunidades tengan sus derechos respetados y promovidos. 
+        p.mb-0 Para profundizar en el tema de diversidad étnica, lo invitamos a visitar el siguiente portal web, donde hablan más ampliamente sobre los pueblos indígenas, las comunidades afrocolombianas, los raizales, y el pueblo Rom o Gitano que habitan en nuestro país.
+
+    .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="flip-up")
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-lg-12.mb-0
+            .py-0.px-lg-5
+              .row.justify-content-around.align-items-center
+                .col-md-auto.d-none.d-lg-block
+                  img(src="@/assets/template/bg-icono-link.svg", style="width: 60px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-0.mb-sm-0
+                      h3.mb-1 Diversidad étnica en Colombia: 5 puntos clave
+                      p.mb-0 Para conocer más sobre diversidad étnica en Colombia: 5 puntos clave, lo invitamos a consultar:
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(href='https://www.senalcolombia.tv/cultura/diversidad-etnica-colombia' target="_blank")
+                        span Ir al sitio
+                        i.fas.fa-arrow-right
+
+    #t_3_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.2] Leyes colombianas sobre diversidad de género
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-9
+        p.mb-0 En este espacio, estaremos conociendo sobre las principales leyes que abordan la diversidad de género; partiremos de nuestra Constitución Política de Colombia (1991), que busca garantizar la igualdad de oportunidades y derechos para todas las personas, sin discriminación por razones de sexo u orientación sexual.
+      .col-sm-12.col-lg-3.d-none.d-lg-block
+        img(src="@/assets/curso/t3/7.svg", alt="")
+    .bg-full-width.bg-fondo-slider.mb-5(data-aos="flip-up")
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/t3/10.png")
+            .col-sm-12.col-lg-7
+              h5 Ley 1482 del 2011 
+              p Establece sanciones penales para actos de discriminación por razones de raza, etnia, religión, nacionalidad, ideología política o filosófica, sexo u orientación sexual.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/t3/11.png")
+            .col-sm-12.col-lg-7
+              h5 Decreto 762 del 2018
+              p Adiciona un capítulo al Título 4 de la Parte 4 del Libro 2, del Decreto 1066 del 2015, adoptando la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTI y de personas con diversas orientaciones sexuales e identidades de género.
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/t3/12.png")
+            .col-sm-12.col-lg-7
+              h5 Decreto 410 del 2018
+              p Establece medidas para prevenir la discriminación por razones de orientación sexual e identidad de género diversa, promoviendo espacios libres de discriminación.
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/t3/13.png")
+            .col-sm-12.col-lg-7
+              h5 Ley 2337 del 2023
+              p Fomenta la inclusión y participación de las mujeres, incluyendo a las mujeres transgénero, en programas de emprendimiento, formación y desarrollo empresarial.
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/t3/14.png")
+            .col-sm-12.col-lg-7
+              h5 Ley 2281 del 2023
+              p Crea el Ministerio de la Igualdad y Equidad, encargado de diseñar, formular, adoptar, dirigir, coordinar, articular, ejecutar, fortalecer y evaluar políticas, planes, programas, estrategias, proyectos y medidas, para contribuir a la eliminación de las desigualdades económicas, políticas y sociales.
+    p.mb-3 Antes de continuar con la legislación que respalda y defiende la diversidad, sugerimos que vea el siguiente video, el cual ayuda a clarificar de qué se trata la ideología de género.
+    .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="flip-up")
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-lg-12.mb-0
+            .py-0.px-lg-5
+              .row.justify-content-around.align-items-center
+                .col-md-auto.d-none.d-lg-block
+                  img(src="@/assets/template/bg-icono-video.svg", style="width: 60px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-0.mb-sm-0
+                      h3.mb-1 ¿Cuál es la joda con la ideología de género? 
+                      p.mb-0 Antes de abordar ¿Cuál es la joda con la ideología de género? , lo invitamos a ver el siguiente video.
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(href='https://www.senalcolombia.tv/cultura/diversidad-etnica-colombia' target="_blank")
+                        span Ver video
+                        i.fas.fa-arrow-right
+    #t_3_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.3]  Leyes colombianas sobre diversidad cultural
+    p.mb-3 Después de ver el video y tener más claridad sobre la ideología de género, hablemos ahora de la normatividad que protege otra diversidad trabajada en esta unidad: la cultural.
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-7
+        LineaTiempoD.color-acento-contenido.large
+          div(numero="1" titulo="Ley 397 de 1997") 
+            p Ley General de Cultura. Esta ley establece principios fundamentales y normas sobre patrimonio cultural, fomentos y estímulos a la cultura, y crea el Ministerio de la Cultura. También garantiza el derecho de los grupos étnicos, comunidades negras y raizales, y pueblos indígenas, a conservar, enriquecer y difundir, su identidad y patrimonio cultural.
+          div(numero="2" titulo="Ley 1516 del 2012") 
+            p Por medio de la cual se aprueba la "Convención sobre la protección y la promoción de la diversidad de las expresiones culturales", firmada en París en el 2005. Esta ley busca proteger y promover la diversidad cultural en Colombia.
+          div(numero="3" titulo="Ley 2319 del 2023") 
+            p Reforma la Ley 397 de 1997; cambia la denominación del Ministerio de Cultura a Ministerio de la Igualdad y Equidad, y dicta otras disposiciones relacionadas con la cultura.
+          div(numero="4" titulo="Ley 2347 del 2024") 
+            p Establece el 12 de octubre de cada año como el Día de la Diversidad Étnica y Cultural de la Nación colombiana. Esta ley busca hacer visible y exaltar la diversidad étnica y cultural mediante acciones afirmativas que reivindiquen el reconocimiento de todas las etnias y culturas que habitan en el territorio colombiano.
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src="@/assets/curso/t3/9.svg", alt="")
+    .bg-full-width.bg-3(data-aos="flip-up")
+      .px-4.px-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            .p-4
+              .row.align-items-center
+                .col-lg-auto.d-none.d-lg-block
+                  img(src="@/assets/curso/t3/8.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 A manera de conclusión, podemos decir que, la diversidad y la inclusión, son conceptos fundamentales en la construcción de sociedades justas y equitativas. En un mundo cada vez más globalizado, es vital que se comprendan y se implementen prácticas inclusivas que reconozcan y valoren la diversidad en todas sus formas. A través de la educación, la legislación y el compromiso social, se puede avanzar hacia una Colombia donde todos los individuos tengamos la oportunidad de participar plenamente y ser valorados por lo que somos. 
+
+    
+
 </template>
 
 <script>
@@ -97,8 +218,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>
+<style lang="sass"></style>
