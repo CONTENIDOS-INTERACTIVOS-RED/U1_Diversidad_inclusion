@@ -3,7 +3,7 @@
   BannerInterno(:subTitulo="'Definición de diversidad'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .bg-full-width.bg-fondo-3
+    .bg-full-width.bg-fondo-3(data-aos="flip-up")
       .px-4.px-md-5
           .row.justify-content-center.align-items-center.mb-5
             .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -39,7 +39,7 @@
               p.mb-0.fw-bold Después de esta reflexión, respondamos entonces qué se entiende por diversidad: 
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src="@/assets/curso/t1/3.png", alt="")
-    .bg-full-width.bg-fondo-slider.mb-0
+    .bg-full-width.bg-fondo-slider.mb-0(data-aos="flip-up")
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
@@ -84,7 +84,7 @@
               h5 Sexto
               p Diversidad se refiere a la variedad y coexistencia de diferentes culturas en una sociedad, incluyendo lenguas, tradiciones, y costumbres, y surgió en el contexto de los movimientos de derechos civiles, que luchaban contra la opresión y discriminación.
 
-    .bg-full-width.bg-fondo-4
+    .bg-full-width.bg-fondo-4(data-aos="flip-up")
       .px-4.px-md-5
         .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
           .col-lg-12
@@ -98,17 +98,17 @@
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Tipos de diversidad
 
-    p.mb-3 Existen diferentes tipos de diversidad, como estudiaremos a continuación.
-    h3.mb-3 La diversidad cultural
-    .row.justify-content-center.mb-5
+    p.mb-3(data-aos="flip-up") Existen diferentes tipos de diversidad, como estudiaremos a continuación.
+    h3.mb-3(data-aos="flip-up") La diversidad cultural
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
         .bg-3.p-4
           p.my-2 Enriquece nuestras vidas al fomentar la creatividad, promover el entendimiento y el respeto entre diferentes grupos, y contribuir al desarrollo social y económico. Según el Informe de la UNESCO sobre la Diversidad Cultural (2009), esta es esencial para el desarrollo sostenible y el bienestar humano, puesto que cada cultura aporta una visión única del mundo. Es fundamental reconocer y valorar esta diversidad, para construir sociedades más inclusivas y justas.
       .col-sm-12.col-lg-4
         img(src="@/assets/curso/t1/11.png", alt="")
 
-    h3.mb-3 La diversidad étnica
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") La diversidad étnica
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src="@/assets/curso/t1/12.svg", alt="Ilustración que representa la diversidad étnica")
       .col-sm-12.col-lg-9
@@ -122,7 +122,7 @@
                     img(src="@/assets/curso/t1/13.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     p.mb-0 Si se desea profundizar más sobre la diversidad cultural y étnica de Colombia y el mundo, puede visitar el siguiente portal web, donde los autores comparten las características principales de estas, según su contexto geográfico.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-12
         .bg-color-white.shadow-soft.py-4.px-lg-5
           .row.justify-content-around.align-items-center
@@ -137,15 +137,15 @@
                   a.boton.color-acento-botones.texto-blanco(href='https://www.lifeder.com/diversidad-etnica/' target="_blank")
                     span Ir al sitio
                     i.fas.fa-arrow-right
-    h3.mb-3 La diversidad de género
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") La diversidad de género
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/14.png", alt="")
       .col-sm-12.col-lg-8
         p.mb-3 Desde los años setenta, Monco, (s.f.), sustenta que, impulsado por el movimiento feminista, el género se ha incorporado como una categoría clave para analizar la realidad social, cultural e histórica de los grupos humanos, aunque su introducción generó debates debido a su origen gramatical y su transposición a un contexto sociocultural más amplio. Historiadores como Joan Scott destacan que, a pesar de la resistencia inicial en algunos círculos académicos, desde los años ochenta el término ha sido aceptado en las ciencias sociales y se ha popularizado, aunque su uso y comprensión no siempre son precisos.
         p.mb-0.fw-bold Por encima de las discusiones terminológicas, es importante destacar que:
     
-    .bg-full-width.bg-fondo-4
+    .bg-full-width.bg-fondo-4(data-aos="flip-up")
       .px-4.px-md-5
         .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
           .col-lg-12
@@ -155,7 +155,7 @@
                   img(src="@/assets/curso/t1/15.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0  Mucho antes de su popularización y uso general en las disciplinas sociales, la noción de género surge a partir de la idea que lo ‘femenino’ y lo ‘masculino’ no son hechos naturales o biológicos, sino construcciones culturales (p.32). 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-sm-12.col-lg-8
         p.mb-4 La #[b diversidad de género incluye] no solo las diferencias biológicas entre hombres y mujeres, sino también las construcciones sociales y culturales que determinan el rol de género en la sociedad. 
         .bg-2.p-4
@@ -163,8 +163,8 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/16.png", alt="")
 
-    p.mb-5 #[b El análisis de género] desafía la noción que las desigualdades entre hombres y mujeres son de origen natural, planteando que las posiciones sociales, políticas y culturales no deben fundamentarse en causas biológicas.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="flip-up") #[b El análisis de género] desafía la noción que las desigualdades entre hombres y mujeres son de origen natural, planteando que las posiciones sociales, políticas y culturales no deben fundamentarse en causas biológicas.
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/17.png", alt="Ilustración que representa la diversidad étnica")
       .col-sm-12.col-lg-8
@@ -178,7 +178,7 @@
                     p.mb-0 Esto invita a cuestionar la validez de basar distinciones morales en diferencias naturales, lo que a menudo resulta en una división desigual de roles, según el sexo; además, nos invita a reconocer y valorar la diversidad para promover la convivencia pacífica y el respeto mutuo en una sociedad plural.
           p.mb-3 Por otro lado, la diversidad de género se refiere también a la variedad de identidades de género y expresiones de género que existen en la sociedad. No se limita únicamente a la tradicional dicotomía de masculino y femenino, sino que reconoce que el género es un espectro amplio que incluye identidades como personas transgénero, no binarias, género fluido, agénero, entre otras.
           p.mb-0.fw-bold A continuación, veremos una breve descripción de cada una de estas identidades de género:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
         LineaTiempoD.color-acento-contenido.large
           div(numero="1" titulo="Transgénero") Son aquellas personas cuya identidad de género no coincide con el sexo asignado al nacer. Esto puede implicar la transición de un género a otro, a través de cambios físicos, hormonales y/o legales. Bornstein (1994), expresa la importancia de reconocer que ser transgénero no se relaciona necesariamente con la orientación sexual; una persona trans puede identificarse como heterosexual, homosexual, bisexual, etc.
@@ -187,7 +187,7 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/19.svg")
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/20.svg")
       .col-sm-12.col-lg-8
@@ -197,7 +197,7 @@
           div(numero="6" titulo="Demigénero") Personas que se sienten parcialmente identificadas con un género en particular, pero no completamente.
           div(numero="7" titulo="Género neutro") Personas que se identifican con un género que no es específicamente masculino ni femenino.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-12
@@ -212,7 +212,7 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/22.png", alt="Ilustración que representa la diversidad étnica")
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-12
         .bg-color-white.shadow-soft.py-4.px-lg-5
           .row.justify-content-around.align-items-center
@@ -228,14 +228,14 @@
                     span Ir al sitio
                     i.fas.fa-arrow-right
 
-    .bg-5.mb-5
+    .bg-5.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center
         .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/t1/24.png', alt='')
         .col-lg
           .p-4
             p.mb-0 Para sintetizar, #[b la diversidad cultural, étnica y de género], son conceptos interrelacionados que enriquecen nuestras sociedades. Mientras que la #[b diversidad cultural] se refiere a las diferentes costumbres, creencias y prácticas que caracterizan a cada grupo, #[b la diversidad étnica] se centra en las variaciones entre grupos raciales y étnicos, incluyendo sus orígenes y tradiciones. Por otro lado, la diversidad de género aborda las diferencias entre los géneros y las identidades de género, promoviendo la igualdad y el respeto hacia todas las personas, independientemente de su género. 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-10
         p.mb-0 A pesar de sus diferencias, estos tipos de diversidad comparten la importancia de la inclusión y el reconocimiento de la valía de todas las personas, contribuyendo a una sociedad más equitativa y armoniosa. Reconocer y valorar estas diversidades no solo enriquece nuestras interacciones sociales, sino que también fomenta un ambiente de respeto y entendimiento mutuo.
       .col-sm-12.col-lg-2.d-none.d-lg-block
