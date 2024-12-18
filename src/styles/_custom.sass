@@ -1,6 +1,6 @@
 .bg
   &-1
-    background-color: #FBEADF
+    background-color: #D3F7E6
   &-2
     background-color: #e8edf7
   &-3
@@ -110,7 +110,7 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .custom-image-card-2
-  border-radius: $custom-card-border-radius
+  border-radius: 10px
   overflow: hidden
   box-shadow: $custom-card-shadow
   height: 100%
@@ -122,6 +122,7 @@ $custom-card-img-height: 322px
   &__image
     height: 224px
     object-fit: cove
+
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -131,11 +132,15 @@ $custom-card-img-height: 322px
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-
-/*.bg-fondo
-  &-slider
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: center
+  &-2
+    background-color: #F9E6E9
+  /* &-slider
     background-image: url("../assets/bg/1.svg") !important
     background-position: bottom
-  &-slider-2
+   &-slider-2
     background-image: url("../assets/bg/2.svg") !important
     background-position: top*/
