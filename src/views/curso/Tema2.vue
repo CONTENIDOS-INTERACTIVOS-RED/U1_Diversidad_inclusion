@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Inclusión: significado y principios'")
+  BannerInterno(:subTitulo="'2. Inclusión: significado y principios'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-3(data-aos="flip-up") Teniendo claro qué es la diversidad, continuaremos indagando sobre la inclusión, concepto que está directamente conectado con la diversidad en todos sus contextos.
     .bg-full-width.bg-fondo-4.mb-lg-5(data-aos="flip-up")

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Definición de diversidad'")
+  BannerInterno(:subTitulo="'1. Definición de diversidad'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .bg-full-width.bg-fondo-3(data-aos="flip-up")

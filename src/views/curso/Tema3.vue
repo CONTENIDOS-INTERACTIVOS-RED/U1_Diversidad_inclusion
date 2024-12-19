@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Normas y legislaciones sobre diversidad e inclusión en diferentes contextos colombianos'")
+  BannerInterno(:subTitulo="'3. Normas y legislaciones sobre diversidad e inclusión en diferentes contextos colombianos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-3 En esta temática, estaremos hablando de las normas y legislaciones que, en nuestro país, rigen la diversidad y la inclusión, pero primero conozcamos la definición de estos términos:
     .row.justify-content-center.mb-5
