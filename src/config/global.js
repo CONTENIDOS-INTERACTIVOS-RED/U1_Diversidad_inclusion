@@ -279,7 +279,7 @@ export default {
     {
       termino: 'Agénero',
       significado:
-        'persona que no se identifica con ningún género. Esta identidad puede implicar una sensación de ser sin género o de que el género no es relevante para la identidad personal.',
+        'Persona que no se identifica con ningún género. Esta identidad puede implicar una sensación de ser sin género o que el género no es relevante para la identidad personal.',
     },
     {
       termino: 'Diversidad',
@@ -294,12 +294,12 @@ export default {
     {
       termino: 'Equidad',
       significado:
-        'principio que busca corregir las desigualdades proporcionando a cada persona lo necesario para alcanzar las mismas oportunidades.',
+        'principio que busca corregir las desigualdades, proporcionando a cada persona lo necesario para alcanzar las mismas oportunidades.',
     },
     {
       termino: 'Género Fluido',
       significado:
-        'persona cuya identidad de género cambia con el tiempo, pudiendo identificarse en diferentes momentos con distintos géneros.',
+        'persona cuya identidad de género cambia con el tiempo, pudiendo identificarse, en diferentes momentos con distintos géneros.',
     },
     {
       termino: 'Inclusión',

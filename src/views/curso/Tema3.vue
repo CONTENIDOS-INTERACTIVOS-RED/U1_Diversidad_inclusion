@@ -169,7 +169,7 @@
                       h3.mb-1 ¿Cuál es la joda con la ideología de género? 
                       p.mb-0 Antes de abordar ¿Cuál es la joda con la ideología de género? , lo invitamos a ver el siguiente video.
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(href='https://www.senalcolombia.tv/cultura/diversidad-etnica-colombia' target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(href='https://youtu.be/mxm8PqXPFf8?si=WgRS5zaigcsBF2OJ' target="_blank")
                         span Ver video
                         i.fas.fa-arrow-right
     #t_3_3.titulo-segundo(data-aos="flip-up")
