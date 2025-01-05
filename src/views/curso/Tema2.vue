@@ -205,7 +205,36 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='www.udea.edu.co' target='_blank' rel='noopener noreferrer') Ortiz García, C. (2020). Sentidos de la participación en la educación inclusiva de niños y niñas con discapacidad: Experiencias de familias de la Institución Educativa Francisco Luis Hernández Betancur. Universidad de Antioquia.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.who.int/es/news-room/fact-sheets/detail/disability-and-health' target='_blank' rel='noopener noreferrer') O.M.S. (2023). Discapacidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://monica.im/es' target='_blank' rel='noopener noreferrer') Apoyo en la creación de textos para personas con discapacidad.
+
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://open.spotify.com/show/3Qt2hOZv3m4gznSnAiYdGb?si=9ljChwRpTN6Y-D5mYvG8lg' target='_blank' rel='noopener noreferrer') Asdown Colombia (2022). El abc de la educación inclusiva (pódcast)
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

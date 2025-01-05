@@ -198,6 +198,33 @@
                   img(src="@/assets/curso/t3/8.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 A manera de conclusión, podemos decir que, la diversidad y la inclusión, son conceptos fundamentales en la construcción de sociedades justas y equitativas. En un mundo cada vez más globalizado, es vital que se comprenden y se implementen prácticas inclusivas que reconozcan y valoren la diversidad en todas sus formas. A través de la educación, la legislación y el compromiso social, se puede avanzar hacia una Colombia donde todos los individuos tengamos la oportunidad de participar plenamente y ser valorados por lo que somos. 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://unesdoc.unesco.org/ark:/48223/pf0000127162_spa' target='_blank' rel='noopener noreferrer') Stenou, K. (2002). Declaración Universal sobre la Diversidad Cultural: una visión, una plataforma conceptual, un semillero de ideas, un paradigma nuevo.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.senalcolombia.tv/cultura/diversidad-etnica-colombia' target='_blank' rel='noopener noreferrer') Sarmiento, D. J. (2024). Diversidad étnica en Colombia: 5 puntos clave. Señal Colombia. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://futureofinterface.org/signall/' target='_blank' rel='noopener noreferrer') Traduce el lenguaje de señas en texto o voz.
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/mxm8PqXPFf8?si=KU5eEVjDv4vsv_Qa' target='_blank' rel='noopener noreferrer') Magic Makers. (2016). ¿Cuál es la joda con la ideología de género? 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad.mb-0
       .p-4.p-md-5
         #Actividad                

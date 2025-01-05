@@ -240,7 +240,37 @@
         p.mb-0 A pesar de sus diferencias, estos tipos de diversidad comparten la importancia de la inclusión y el reconocimiento de la valía de todas las personas, contribuyendo a una sociedad más equitativa y armoniosa. Reconocer y valorar estas diversidades no solo enriquece nuestras interacciones sociales, sino que también fomenta un ambiente de respeto y entendimiento mutuo.
       .col-sm-12.col-lg-2.d-none.d-lg-block
         img(src="@/assets/curso/t1/23.svg", alt="")
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='http://www.repositorio.ucm.cl/handle/ucm/5067' target='_blank' rel='noopener noreferrer') Souza-de-Carvalho, R., Ávila-Miranda, P., Césped-Cáceres, F., et al. (2023). Educación Física y diversidad de género: un análisis desde la experiencia de profesores de aula.
+  
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.lifeder.com/diversidad-etnica/' target='_blank' rel='noopener noreferrer') Lifeder. (2022). Diversidad étnica.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='' target='_blank' rel='noopener noreferrer') Plataforma que actúa como es ser un compañero virtual que brinda apoyo emocional, conversaciones y una compañía "real" cuando sea necesario para el usuario.
+            
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/btDgoylQ3ns?si=qZ6y0NHPOg7U59PM' target='_blank' rel='noopener noreferrer') Avilia, R. (2019). RA Mar de Fueguitos Galeano
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
