@@ -146,10 +146,10 @@
                     .col
                       .row.justify-content-between.align-items-center
                         .col.mb-0.mb-sm-0
-                          h3.mb-1 Sentidos de la participación en la educación inclusiva de niños y niñas con discapacidad
+                          h3.mb-1 Educación inclusiva y marco legal en Colombia, una mirada desde la alteridad y las diferencias.
                           p.mb-0 Para conocer más, lo invitamos a consultar:
                         .col-sm-auto
-                          a.boton.color-acento-botones.texto-blanco(href='https://bibliotecadigital.udea.edu.co/bitstream/10495/16081/1/OrtizClaudia_2020_Particiapci%C3%B3n_Educaci%C3%B3n%20inclusiva_Familias.pdf' target="_blank")
+                          a.boton.color-acento-botones.texto-blanco(href='https://www.redalyc.org/journal/1390/139069262005/' target="_blank")
                             span Ir al sitio
                             i.fas.fa-arrow-right
       .col-sm-12.col-lg-6
@@ -214,7 +214,7 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
-              a(href='www.udea.edu.co' target='_blank' rel='noopener noreferrer') Ortiz García, C. (2020). Sentidos de la participación en la educación inclusiva de niños y niñas con discapacidad: Experiencias de familias de la Institución Educativa Francisco Luis Hernández Betancur. Universidad de Antioquia.
+              a(href='https://www.redalyc.org/journal/1390/139069262005/' target='_blank' rel='noopener noreferrer') Fundación Universitaria Los Libertadores. (2020). Educación inclusiva y marco legal en Colombia: Una mirada desde la alteridad y las diferencias. Redalyc.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')

@@ -258,7 +258,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='' target='_blank' rel='noopener noreferrer') Plataforma que actúa como es ser un compañero virtual que brinda apoyo emocional, conversaciones y una compañía "real" cuando sea necesario para el usuario.
+              a(href='https://my.replika.com/' target='_blank' rel='noopener noreferrer') Plataforma que actúa como es ser un compañero virtual que brinda apoyo emocional, conversaciones y una compañía "real" cuando sea necesario para el usuario.
             
             
             
