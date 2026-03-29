@@ -224,7 +224,7 @@
                   h3.mb-1 Educación Física y diversidad de género: un análisis desde la experiencia de profesores de aula
                   p.mb-0 Para conocer más sobre Educación Física y diversidad de género, lo invitamos a consultar:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href='http://www.repositorio.ucm.cl/handle/ucm/5067' target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href='https://dialnet.unirioja.es/servlet/articulo?codigo=9061254&utm' target="_blank")
                     span Ir al sitio
                     i.fas.fa-arrow-right
 
@@ -249,7 +249,7 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
-              a(href='http://www.repositorio.ucm.cl/handle/ucm/5067' target='_blank' rel='noopener noreferrer') Souza-de-Carvalho, R., Ávila-Miranda, P., Césped-Cáceres, F., et al. (2023). Educación Física y diversidad de género: un análisis desde la experiencia de profesores de aula.
+              a(href='https://www.unesco.org/es/legal-affairs/unesco-universal-declaration-cultural-diversity' target='_blank' rel='noopener noreferrer') UNESCO. (2001). Declaración universal sobre la diversidad cultural. París: Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura.
   
             
             p.d-flex.my-4
